@@ -8,4 +8,4 @@ film tablosunda bulunan title sütunundaki film isimlerinden en az 4 adet büyü
 SELECT title FROM film WHERE title ILIKE '%T%T%T%T%';
 
 film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve rental_rate 2.99 olan verileri sıralayınız:
-SELECT title FROM film WHERE title LIKE 'C%' AND LENGTH(title) > 90 AND  rental_rate = 2.99 ;
+SELECT title FROM film WHERE title LIKE 'C%' AND LENGTH(title) > 90 AND rental_rate = 2.99 ;
